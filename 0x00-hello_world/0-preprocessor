@@ -1,5 +1,4 @@
 #!/bin/bash
-c_file=$CFILE
-output_file="c"
-cpp -E $c_file -o $output_file
-echo "Preprocessing of $c_file completed. Result saved in $output_file."
+CFILE="main.c"
+gcc -E $CFILE -o c
+
