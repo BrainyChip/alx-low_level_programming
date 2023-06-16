@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - to print data types sizes
+ * main - Entry point to print data types sizes
  *
  * Return: always (0)
  *
