@@ -7,16 +7,18 @@
  */
 int main(void)
 {
-	char lowerbet;
-	char alphabet;
+	char lowerbet = 'a';
+	char alphabet = 'A';
 
-	for (lowerbet = 'a'; lowerbet <= 'z'; lowerbet++)
+	while (lowerbet <= 'z')
 	{
 		putchar(lowerbet);
+		lowerbet++;
 	}
-	for (alphabet <= 'A'; alphabet <= 'Z'; alphabet++)
+	while (alphabet <= 'Z')
 	{
 		putchar(alphabet);
+		alphabet++;
 	}
 	putchar('\n');
 	return (0);
